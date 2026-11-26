@@ -13,6 +13,8 @@ https://www.figma.com/design/Dn46khdSyLLYGcnq7jnMA5/dev?t=2VmdTMTl5NPF2Iln-1
 -dart run flutter_native_splash:create
 -dart run flutter_native_splash:remove
 
+--lottie add--
+flutter pub add lottie
 
 --folder structure details-
 
