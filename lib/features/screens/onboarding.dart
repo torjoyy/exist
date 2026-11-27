@@ -1,6 +1,7 @@
 import 'package:exist/core/theme/app_colors.dart';
 import 'package:exist/core/theme/app_spacing.dart';
 import 'package:exist/core/theme/app_text_styles.dart';
+import 'package:exist/features/screens/auth/login.dart';
 import 'package:exist/features/screens/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
@@ -44,7 +45,7 @@ class Onboarding extends StatelessWidget {
                     padding: EdgeInsets.symmetric(vertical: AppSpacing.md),
                   ),
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context)=> HomePage()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=> Login()));
                   },
                   child: Text('Get started', style: AppTextStyles.button),
                 ),

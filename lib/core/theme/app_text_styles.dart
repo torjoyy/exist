@@ -10,6 +10,13 @@ class AppTextStyles {
     color: AppColors.textPrimary,
   );
 
+  static const TextStyle primary = TextStyle(
+    fontSize: 18,
+    fontWeight: .bold,
+    color: AppColors.textPrimary,
+  );
+  
+
   static const TextStyle body = TextStyle(
     fontSize: 16,
     fontWeight: .w400,
